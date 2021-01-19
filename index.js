@@ -1,0 +1,1 @@
+module.exports = snowflake => new Date(Number((BigInt(snowflake) >> 22n) + 1420070400000n));
